@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        /* Table styling */
+        table {
+            width: 70%;
+            margin: 50px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #242424;
+        }
+
+        /* Table header styling */
+        th {
+            background-color: #49E670;
+            color: black;
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        /* Table data styling */
+        td {
+            padding: 15px;border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        /* Alternate row colors */
+        tr:nth-child(even) {
+            background-color: #FF9600;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #FDF0E8;
+        }
+
+        /* Highlighted row */
+        .highlight {
+            background-color: #242424;
+            font-weight: bold;
+        }
+
+        .highlight td {
+            border: 2px solid #242424;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Plan</th>
+                <th>Features</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Basic</td>
+                <td>Access to limited features</td>
+                <td>$10/month</td>
+            </tr>
+            <tr class="highlight">
+                <td>Standard</td>
+                <td>Access to most features</td>
+                <td>$20/month</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>Unlimited features</td>
+                <td>$50/month</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
